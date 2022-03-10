@@ -31,7 +31,7 @@
         }
     },
     "replace" : {
-        "graze/guzzle-jsonrpc" : '3.2.2'
+        "graze/guzzle-jsonrpc" : "3.2.2"
     },
     "require": {
         "php": ">=7.0",
