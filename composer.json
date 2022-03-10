@@ -1,5 +1,5 @@
 {
-    "name": "evently/guzzle-jsonrpc",
+    "name": "blackrabbit944/guzzle-jsonrpc",
     "description": "JSON-RPC 2.0 client for Guzzle with Guzzle 7 compatibillity, forked from graze/guzzle-jsonrpc",
     "keywords": ["guzzle", "guzzlehttp", "http", "json", "json-rpc", "jsonrpc", "ring", "rpc"],
     "homepage": "https://github.com/graze/guzzle-jsonrpc",
@@ -29,6 +29,9 @@
         "psr-4": {
             "Graze\\GuzzleHttp\\JsonRpc\\Test\\": "test/src"
         }
+    },
+    "replace" : {
+        "graze/guzzle-jsonrpc" : '3.2.2'
     },
     "require": {
         "php": ">=7.0",
