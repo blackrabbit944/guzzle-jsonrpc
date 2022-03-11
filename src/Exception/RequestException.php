@@ -33,6 +33,7 @@ class RequestException extends HttpRequestException
      *
      * @return HttpRequestException
      */
+    /*
     public static function create(
         HttpRequestInterface $request,
         HttpResponseInterface $response = null,
@@ -61,4 +62,5 @@ class RequestException extends HttpRequestException
 
         return parent::create($request, $response, $previous);
     }
+    */
 }
